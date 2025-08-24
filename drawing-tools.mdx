@@ -1,0 +1,40 @@
+---
+title: "Drawing Tools"
+description: "Learn about Cadmium's drawing and editing tools including pen, eraser, fill, and eyedropper"
+---
+
+# Drawing Tools
+
+# Pen/Eraser Tool
+
+![Pen Tool Interface](/images/drawing-tools/pen-tool.png)
+
+- The Pen/Eraser Tool is toggled by hitting alt or option.
+- The Pen size can be adjusted with the slider, or when the pen tool is selected, but holding 'control,' and right click dragging left or right.
+- The pressure sensitivity can be turned on and off as well from this panel.
+
+## Draw Options
+
+There are also a few different drawing modes, 'over' performs like normal where new lines are drawn over old ones, 'under' draws under any existing pixels, and within is confined to only the existing pixels.
+
+# Eraser Tool
+
+![Eraser Tool](/images/drawing-tools/eraser-tool.png)
+
+There is also a dedicated eraser tool, in case you want to have a different size eraser from your pen.
+
+# Common Uses For Pen and Eraser Tool
+
+After analyzing your frames, you may find some gaps in your linework. In addition to adjusting the [Analyze Settings](/analyzing-frames), you can use the Pen/Eraser tool to make any manual adjustments.  You can also use the Pen Tool on the Color layer to make any small tweaks to frames. At the time of this writing, drawing on the color layer does not update the segmentation mask, and so any manual changes might not remain upon repeat colorizations. 
+
+# Fill Tool
+
+![Fill Tool](/images/drawing-tools/fill-tool.png)
+
+Regardless of what layer is selected, the fill tool will always fill on the color layer. The Fill tool corresponds to the segment map of each image, and any changes that you make with this tool will always propogate to other frames, if used as a reference tool.
+
+# Eyedropper
+
+The eye dropper tool has no settings, and functions like any other eyedropper. Any color on the canvas is selectable. holding shift is the shortcut to eyedrop while using another tool. 
+
+![Eyedropper Tool](/images/drawing-tools/eyedropper.png)
