@@ -3,13 +3,13 @@ title: "Colorizing"
 description: "Learn how to colorize your frames using Cadmium's AI-powered prediction system"
 ---
 
-![Colorizing Interface](/images/colorizing/colorizing-interface.png)
+<img src="/images/colorizing/colorizing-interface.png" alt="Colorizing Interface" style="border-radius: 8px;" />
 
 Once you have your imported line sequence, and at least one color reference, you are ready to colorize. You can colorize a single frame, or multiple frames at once. Hitting the "Colorize" button with no frames selected will default to Colorizing the current frame that you are on. Or you can select other frames, or all frames to process. If multiple frames are selected to colorize, Cadmium will first use your reference image, but then subsequently will use the last colorized frame as a new reference image for the next frame. Because of this, unfortunately any errors in frames will compound, and your results might be less accurate as the sequence progresses. For this reason, we might suggest starting out by analyzing 1 or only a few frames at first to see how well everything performs. If there are any manual corrections to be made, we would recommend doing that before continuing with the coloring process. You can learn more about how edit your frames in the [Editing Frames](/editing-frames) section of this documentation.
 
 # Which reference frames are being used?
 
-![Reference Frame Connections](/images/colorizing/reference-connections.png)
+<img src="/images/colorizing/reference-connections.png" alt="Reference Frame Connections" style="border-radius: 8px;" />
 
 The Timeline displays line connections that visually show which frame is being used to make predictions, and it will always be the reference frame closest to the current frame you are coloring. Unfortunately at this time, Cadmium is only able to use one reference frame per color prediction, but we hope to be able to expand this to all reference frames very soon.
 
