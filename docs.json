@@ -11,20 +11,15 @@
   "navigation": {
     "groups": [
       {
-        "group": "Getting Started",
+        "group": "Get Started",
         "pages": [
           "index",
-          "getting-started"
-        ]
-      },
-      {
-        "group": "User Interface",
-        "pages": [
+          "getting-started",
           "user-interface"
         ]
       },
       {
-        "group": "Working with Frames",
+        "group": "Core",
         "pages": [
           "importing-frames",
           "reference-frames",
