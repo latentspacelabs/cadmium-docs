@@ -30,7 +30,7 @@
         ]
       },
       {
-        "group": "Tools and Features",
+        "group": "Tools and Menus",
         "pages": [
           "drawing-tools",
           "color-menu",
@@ -80,7 +80,7 @@
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "https://cadmium.app/signup"
+      "href": "https://cadmium.app"
     }
   },
   "contextual": {
@@ -97,8 +97,8 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/cadmium_app",
-      "github": "https://github.com/cadmium-app",
+      "discord": "https://discord.gg/cadmium",
+      "x": "https://x.com/cadmiumai",
       "linkedin": "https://linkedin.com/company/cadmium"
     }
   }
